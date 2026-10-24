@@ -1,0 +1,32 @@
+{
+  "id": "./",
+  "name": "식물-수분매개자 상호작용 네트워크 저장소",
+  "short_name": "상호작용 저장소",
+  "description": "시민과학 식물-수분매개자 상호작용 현장 기록 및 네트워크 분석",
+  "lang": "ko",
+  "start_url": "./",
+  "scope": "./",
+  "display": "standalone",
+  "background_color": "#101F46",
+  "theme_color": "#101F46",
+  "icons": [
+    {
+      "src": "./icon-192.png",
+      "sizes": "192x192",
+      "type": "image/png",
+      "purpose": "any"
+    },
+    {
+      "src": "./icon-512.png",
+      "sizes": "512x512",
+      "type": "image/png",
+      "purpose": "any"
+    },
+    {
+      "src": "./icon-512.png",
+      "sizes": "512x512",
+      "type": "image/png",
+      "purpose": "maskable"
+    }
+  ]
+}
