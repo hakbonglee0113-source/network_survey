@@ -1,5 +1,5 @@
 // Offline application shell. External maps, weather and GPS remain network-dependent.
-const CACHE_NAME = 'pollination-network-pwa-v3';
+const CACHE_NAME = 'pollination-network-pwa-v4';
 const SHELL = ['./', './index.html', './manifest.webmanifest', './icon.svg', './icon-192.png', './icon-512.png', './apple-touch-icon.png'];
 self.addEventListener('install', event => {
   event.waitUntil(caches.open(CACHE_NAME).then(cache => cache.addAll(SHELL)).then(() => self.skipWaiting()));
